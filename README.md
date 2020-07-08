@@ -1,7 +1,7 @@
 # COVID-19 Machine Learning Curve Prediction
 ## Created by Gavin Uhran
 ### Description
-Finding it difficult to view accurate data on COVID-19? I made a data visualization that allows the user to see the change in COVID-19 cases in Illinois by day. The goal is to help people visualize the 'curve' of cases, observe the peak, and see how our society's mitigation efforts are making a difference! All data is from the Illinois Department of Public Health. For more information, refer to https://www.dph.illinois.gov/covid19/covid19-statistics.
+Using the TensorFlow library in Python and Jupyter Notebooks, I created a data visualization that displays the change in COVID-19 cases in Illinois by day. The machine learning model analyzes the data, then attempts to draw a multi-degree polynomial curve matching the data. The goal is to help citizens visualize the 'curve' of cases, observe the peak, and see how our society's mitigation efforts are making a difference! All data is from the Illinois Department of Public Health. For more information, refer to https://www.dph.illinois.gov/covid19/covid19-statistics
 ### How it Works
 The program first imports the raw **JSON** data from the Illinois Department of Public Health, then creates a **pandas** data frame containing the number of days since the first COVID-19 case in Illinois (x-value) and the change in the number of cases (y-value) in Illinois each day. 
 
